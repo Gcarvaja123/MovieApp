@@ -1,0 +1,47 @@
+.search-bar{
+    padding-left: 10px;
+    width: 180px;
+  }
+  
+  .search-input{
+    width: 100%;
+    border-radius: 5px;
+    border-color: black;
+  }
+  
+  .cards{
+    margin-top: 0px;
+    flex-direction: column;
+  }
+  
+  .movie-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    padding: 5px 0px;
+  }
+  
+  .movie-card:hover{
+    cursor: pointer;
+  }
+  
+  .image-card{
+    height: 60px;
+  }
+  .image-card:hover{
+    height: 120px;
+  }
+  
+  .content-card{
+    height: 60px;
+    font-size: 10px;
+  }
+  
+  .image-card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+  }
+  
+  
