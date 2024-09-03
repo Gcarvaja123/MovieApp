@@ -1,0 +1,17 @@
+
+.Header-Bar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(60, 61, 92);
+    margin-top: 0px;
+}
+
+.Title{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: white;
+    margin-left: 30px;
+}
+
+
