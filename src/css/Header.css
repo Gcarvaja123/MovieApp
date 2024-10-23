@@ -1,17 +1,54 @@
 
 .Header-Bar{
-    height: 80px;
+    height: 8vh;
     width: 100%;
-    background-color: rgb(60, 61, 92);
+
+    background-color: #162031;
     margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    box-sizing: border-box; 
+    padding: 0px 120px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .Title{
+    cursor: pointer;
     display: flex;
     align-items: center;
     height: 100%;
     color: white;
-    margin-left: 30px;
+    font-size: 35px;
+    font-weight: bold;
 }
 
+.navigation-bar{
+    padding-left: 40px;
+    height: 100%;
+    align-content: center;
+}
 
+.inactive-link{
+    color: white;
+    font-style: none;
+    font-size: 20px;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+.active-link{
+    color: white;
+    font-style: none;
+    font-size: 20px;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+.search-container{
+    margin-left: auto; 
+    width: 300px;
+    
+}

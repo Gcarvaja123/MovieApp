@@ -1,0 +1,56 @@
+.movies-content{
+    padding: 100px 120px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.movies-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 20px;
+    padding: 0px 140px ;
+}
+
+.movie-details{
+    height: 230px;
+    width: 180px;
+    display: flex;
+    position: relative;
+    
+}
+
+.movie-details img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.rating-value-movie{
+    position: absolute;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    background-color: #7e703a;
+    height: 35px;
+    width: 35px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.movie-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+       
+}
+
+.pagination{
+    align-items: center; 
+
+}
+.MuiButtonBase-root{
+    color: white;
+}

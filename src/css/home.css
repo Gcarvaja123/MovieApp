@@ -1,0 +1,42 @@
+.tab-container{
+    padding: 0px 120px;
+}
+
+.css-13xfq8m-MuiTabPanel-root {
+    padding: 0px; 
+}
+
+.css-13xfq8m-MuiTabPanel-root {
+    padding: 0px;
+}
+
+.content{
+    padding-top: 8vh;
+}
+
+.box-container{
+    height: 60px;
+    border-radius: 12px;
+    background-color: #162031;
+    align-content: center;
+}
+
+.table-container{
+    padding: 0px 20px;
+    font-size: 40px;
+
+}
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary{
+    font-size: 18px;
+    font-Family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    text-transform: none;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+
+.tabutton{
+    font-size: 40px;
+}

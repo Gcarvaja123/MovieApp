@@ -1,0 +1,52 @@
+.movie-details-container{
+    padding: 100px 200px;
+    position:relative;
+    height: 70vh;
+}
+
+.movie-details-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    opacity: 0.3; /* Controla la opacidad del fondo */
+    z-index: -1; /* Para que la imagen quede detrás del contenido */
+    
+  }
+
+.backButton{
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.movie-details-content{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.image-movie-container{
+    height: 500px;
+}
+
+.image-movie-container img{
+    border-radius: 10px;
+    height: 100%;
+    
+}
+
+.movie-details-content{
+    color: white;
+}

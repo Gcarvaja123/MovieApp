@@ -4,12 +4,12 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
-    padding: 0px 60px;
 }
 
 .popular-info{
-    height: 150px;
-    width: 100px;
+    height: 230px;
+    width: 160px;
+    cursor: pointer;
     
 }
 
@@ -20,7 +20,8 @@
     object-fit: fill;
 }
 
+
+
 .popular-tittle{
-    padding-left: 60px;
     color: white;
 }

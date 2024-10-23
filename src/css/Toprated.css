@@ -4,14 +4,14 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
-    padding: 0px 60px;
 }
 
 .rated-info{
-    height: 150px;
-    width: 100px;
+    height: 230px;
+    width: 160px;
     position: relative;
     display: flex;
+    cursor: pointer;
     
     
 }
@@ -24,7 +24,6 @@
 }
 
 .rated-title{
-    padding-left: 60px;
     color: white;
 }
 

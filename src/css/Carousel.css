@@ -10,7 +10,7 @@
 
 .image-container img{
     width: 100%;
-    height: 500px;
+    height: 100%;
     object-fit: fill;
     border-radius: 20px;
 }
@@ -24,13 +24,24 @@
 }
 
 .carousel{
-    padding: 20px 320px;
+    padding: 30px 300px;
 }
 
 .text-container{
-    position: absolute; /* Posicionamiento absoluto dentro del contenedor relativo */
-    color: white; /* Cambiar el color del texto para que sea visible */
-    font-size: 24px; /* Ajusta el tamaño de fuente según tu preferencia */
+    position: absolute; 
+    color: white; 
+    font-size: 24px;
+    margin-left: 5%;
+    text-align: left;
+    margin-top: 20%;
     
 }
 
+.p-carousel-container button{
+    color: white;
+    padding: 10px;
+}
+
+.p-carousel-items-content{
+    border-radius: 20px;
+}
