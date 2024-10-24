@@ -70,10 +70,7 @@ const Moviedetail = () => {
           <div className='movie-details-content' >
             <div className='image-movie-container'>
               <img src={"https://image.tmdb.org/t/p/w500"+data.poster_path}/>
-              {/* <div>
-                
-
-              </div> */}
+              
             </div>
             <div className='movie-information-container'>
               <div className='movie-title'>

@@ -9,7 +9,6 @@ import "../css/Carousel.css"
 
 
 const carouselTemplate = (items) => {
-    console.log(items)
     return (
         <div >
             <div className='info-container'>
@@ -22,7 +21,7 @@ const carouselTemplate = (items) => {
                         <div>
                             <Rating name="read-only" value={items.vote_average} precision={0.1} max={10} readOnly />
                             <p>Rating : {items.vote_average} from {items.vote_count} users</p>
-                            <p>{items.overview}</p>
+                            <p className='overview'>{items.overview}</p>
                         </div>
                     </div>
                                   
@@ -39,8 +38,8 @@ const Carousela = () => {
     
 
     const { data, error, isLoading } = useQuery({
-        queryKey: ['search'], // Incluir la búsqueda en la queryKey
-        queryFn: GetTrendingMovies, // Pasar la función de búsqueda
+        queryKey: ['search'],
+        queryFn: GetTrendingMovies, 
         
     });
 

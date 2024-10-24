@@ -119,14 +119,13 @@ export const GetMoviesByFilters = async(filters, npage) =>{
     const page = `&page=${npage}`
 
     
-    // Construir la URL completa de la API
+    
     const url = `${baseURL}/${endpoint}?${genresParam}${valorationParam}${dates}${page}`;
-    console.log(url)
+    
 
     try {
         const response = await fetch(url, options);
         const data = await response.json();
-        /* return data.results */;
         return data
     } catch (error) {
         console.error('Error fetching data:', error);

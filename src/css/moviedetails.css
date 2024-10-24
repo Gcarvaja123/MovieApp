@@ -16,8 +16,8 @@
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
-    opacity: 0.3; /* Controla la opacidad del fondo */
-    z-index: -1; /* Para que la imagen quede detrás del contenido */
+    opacity: 0.3;
+    z-index: -1; 
     
   }
 

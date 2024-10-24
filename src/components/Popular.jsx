@@ -18,7 +18,7 @@ const Popular = () => {
     const GotoMovie = (idmovie) =>{
         navigate(`/movies/${idmovie}`)
     }
-    //console.log(data)
+    
 
   return (
     <>

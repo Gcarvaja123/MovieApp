@@ -19,17 +19,7 @@
     color: white;
 }
 
-/* .genre-box {
-    flex-grow: 1;
-    padding: 12px;
-    border-radius: 10px 0px 0px 10px;
-    text-align: center;
-    cursor: pointer;
-    background-color: red; 
-    color: white;
-    font-size: 14px;
-    transition: background-color 0.3s ease;
-  } */
+
 
 .genre-box{
   cursor: pointer;
@@ -44,14 +34,10 @@
 }
   
 .genre-box.selected {
-    background-color: #1976d2; /* Color cuando está seleccionado */
+    background-color: #1976d2; 
 }
 
-/* .Popularity{
-  
-  
 
-} */
 .popularity-tittle, .genres-tittle, .valoration-tittle, .calendar-tittle{
   color: white;
   font-weight: bold;
@@ -77,7 +63,7 @@
 }
 
 .popularity-box.selected {
-  background-color: #1976d2;/* Color cuando está seleccionado */
+  background-color: #1976d2;
 }
 
 hr{

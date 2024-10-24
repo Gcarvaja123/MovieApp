@@ -5,8 +5,7 @@ import {create} from 'zustand'
 
 export const useFilter = create((set) => ({
     istoprated : true,
-    ispopular : false,/* 
-    popularity : "desc", */
+    ispopular : false,
     genres: [],
     filters : {
         popularity : "desc",

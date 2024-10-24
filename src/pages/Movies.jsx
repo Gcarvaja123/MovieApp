@@ -47,10 +47,10 @@ const Movies = () => {
               <Stack spacing={2} className='pagination'>
                 <Pagination count={displayedData?.total_pages} page={page} onChange={handleChange} sx={{
                   '& .MuiPaginationItem-root': {
-                    color: 'white', // Cambia el color del texto
+                    color: 'white', 
                     '&.Mui-selected': {
-                      backgroundColor: '#4e5150', // Cambia el color de fondo del elemento seleccionado
-                      color: 'white', // Cambia el color del texto del elemento seleccionado
+                      backgroundColor: '#4e5150', 
+                      color: 'white', 
                     },
                   },
                 }}/>
@@ -66,10 +66,10 @@ const Movies = () => {
               <Stack spacing={2} className='pagination'>
                 <Pagination count={data.total_pages} page={page} onChange={handleChange} sx={{
                   '& .MuiPaginationItem-root': {
-                    color: 'white', // Cambia el color del texto
+                    color: 'white', 
                     '&.Mui-selected': {
-                      backgroundColor: '#4e5150', // Cambia el color de fondo del elemento seleccionado
-                      color: 'white', // Cambia el color del texto del elemento seleccionado
+                      backgroundColor: '#4e5150', 
+                      color: 'white', 
                     },
                   },
                 }}/>

@@ -14,7 +14,7 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { emphasize } from '@mui/material';
 import dayjs from 'dayjs';
-import 'dayjs/locale/es'; // Importa el idioma español para formatear
+import 'dayjs/locale/es'; 
 import localizedFormat from 'dayjs/plugin/localizedFormat';
 
 dayjs.extend(localizedFormat);
@@ -26,7 +26,7 @@ const theme = createTheme({
         MuiSvgIcon: {
             styleOverrides: {
               root: {
-                color: 'white', // Cambia el color del icono aquí
+                color: 'white', 
               },
             },
           },
@@ -34,10 +34,10 @@ const theme = createTheme({
         styleOverrides: {
           root: {
             '& .MuiInputBase-input': {
-              color: 'white', // Cambia el color del texto aquí
+              color: 'white', 
             },
-            '& .MuiInputLabel-root': { // Cambia el color del placeholder aquí
-                color: 'white', // Cambia el color del placeholder aquí
+            '& .MuiInputLabel-root': { 
+                color: 'white', 
             },
             '& .MuiOutlinedInput-notchedOutline': {
             borderColor: '#1976d2 !important',
@@ -114,7 +114,7 @@ const Filter = () => {
                         (data.map((genre) => (
                         <div
                         key={genre.id}
-                        className={`genre-box ${selectedGenres.includes(genre.id) ? 'selected' : ''}`} // Clase condicional
+                        className={`genre-box ${selectedGenres.includes(genre.id) ? 'selected' : ''}`} 
                         onClick={() => handleGenreClick(genre.id)}
                         >
                         {genre.name}
