@@ -1,12 +1,15 @@
 const movie_api = process.env.REACT_APP_API_KEY
 console.log("movie ap : " ,movie_api)
+console.log("nuevo")
 const options = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: `Bearer ${movie_api}`
+      Authorization: `Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZTFlNjAzZjNhYTdmOGU0YzY0NTA4NjhiZDRhNTExYyIsIm5iZiI6MTcyNTAzMjUwNy44OTQ4OTcsInN1YiI6IjY2ZDE0YTBjMDkwOTY5OTQ2MWI1ZWNhZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.lyhv1Xs0hOFhlUdmXcOYt_sJX2FzN57GX3IO5YkiiYM`
     }
 };
+
+
 
 
 
