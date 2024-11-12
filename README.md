@@ -1,7 +1,7 @@
 
 # Sistema web para visualizar información de películas y series
 
-                                                    [Sistema web](https://movie-app-puce-eta.vercel.app)
+                                                    [Sistema web] (https://movie-app-puce-eta.vercel.app)
 
 Sistema web actualmente en desarrollo para el seguimiento de películas y series. Con la utilización de react js y con los datos recolectados de la API de TMDB, se crea un sistema para visualizar información relevante acerca de series y películas, y así los usuarios van a poder encontrar películas y series de acorde al gusto de ellos.
 
